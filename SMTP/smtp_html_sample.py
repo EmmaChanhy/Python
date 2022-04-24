@@ -11,7 +11,7 @@ from pygooglenews import GoogleNews
 from pretty_html_table import build_table
 
 
-#Get the email info
+#Get the email info from config.json
 get_info = pd.read_json('your_config_json_path',typ='series')
 get_email = get_info['email']
 get_pwd = get_info['password']
