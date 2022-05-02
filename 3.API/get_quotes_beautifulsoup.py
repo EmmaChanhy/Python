@@ -27,7 +27,7 @@ def get_quotes(author_firstname, author_surname, first_page, last_page):
             quo_text = div.text.strip()
             quote_list.append({'quote':quo_text,'author':author_fullname})
     
-    with open(f"/Users/emma/Desktop/Python_Projects/QuotesAPI/top_10_billionairs_quotes_1.json", 'w') as f:
+    with open(f"json_name.json", 'w') as f:
         json.dump(quote_list, f)
         print('JSON exported!')
     
