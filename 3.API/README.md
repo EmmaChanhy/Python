@@ -1,0 +1,1 @@
+Life can be frustrating and disappointing sometimes, there are obstacles, rejections and failures. This simple API (https://billionairesquotesapi.herokuapp.com/) shows random quote from Top 10 billionaires in this world and may motivate/inspire you! 
